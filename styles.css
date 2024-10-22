@@ -150,7 +150,8 @@
     margin-top: 2rem;
   }
 
-  input[type="email"] {
+  input[type="email"] ,
+  input[type="search"] {
     padding: 1rem 2rem;
     font-size: 1rem;
     margin-right: 1rem;
@@ -164,7 +165,8 @@
     text-align: start;
   }
 
-  .home input[type="email"]::placeholder {
+  .home input[type="email"]::placeholder ,
+  .home input[type="search"]::placeholder {
     padding: 1rem 2rem;
     font-size: 1rem;
     margin-right: 1rem;
@@ -533,6 +535,10 @@
     .footerBox {
       grid-template-columns: 1fr 1fr;
     }
+
+    .trending {
+      height: 23rem;
+    }
   }
 
   @media screen and (max-width: 800px) {
@@ -570,7 +576,8 @@
     }
 
 
-    input[type="email"] {
+    input[type="email"],
+    input[type="search"] {
       margin-right: 0;
       width: 80vw;
     }
